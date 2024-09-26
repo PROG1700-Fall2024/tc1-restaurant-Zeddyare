@@ -23,12 +23,6 @@ def main():
     #also as billed was a float already theres no need to include the float conversions anymore
 
     #output for totals 
-    #print("\nYour original billed amount was: ${0:,.2f}".format(billed)) 
-    #print("Your tax due is: ${0:,.2f}".format(tax))
-    #print("Your tip amount is: ${0:,.2f}".format(tip))
-    #print("Your total due is: ${0:,.2f}".format(total)) 
-    #gonna try to clean this up
-
     print("""\nYour original billed amount was: ${0:,.2f}
 Your tax due is: ${1:,.2f}
 Your tip amount is: ${2:,.2f}
